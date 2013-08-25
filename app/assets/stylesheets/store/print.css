@@ -1,16 +1,16 @@
 @media print {
   body {
-    background: white;
+    background: #121212;
     font-size: 12pt;
     font-family: "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
   }
-  #main-nav-bar, #nav-bar, 
+  #main-nav-bar, #nav-bar,
   .open-menu, .close-menu,
   #mobile-navigation, #footer,
   #taxon-crumbs, .add-to-cart,
   #product-thumbnails, input, button,
   #taxonomies, textarea, .cart-item-quantity-header,
-  .cart-item-delete, .cart-item-quantity, a.continue, 
+  .cart-item-delete, .cart-item-quantity, a.continue,
   span.or, select {
     display: none !important;
   }
@@ -34,12 +34,12 @@
 
   #product-images, [data-hook="product_properties"],
   #cart-form {
-    float: left;  
+    float: left;
     width: 45%;
   }
 
   #cart-form, [data-hook="product_properties"] {
-    clear: both;  
+    clear: both;
   }
 
   [data-hook="product_properties"] {
@@ -47,7 +47,7 @@
   }
 
   #product-description {
-    float: right;  
+    float: right;
     width: 50%;
     position: absolute;
     top: 200px;
@@ -60,11 +60,11 @@
     right: 0;
     width: 50%;
     display: block;
-    font-size: 18pt;  
+    font-size: 18pt;
     font-weight: bold;
     border-bottom: 1px solid black;
   }
-  
+
   [data-hook="inside_cart_form"] #subtotal {
     font-size: 18pt;
     border-top: 1px solid black;
